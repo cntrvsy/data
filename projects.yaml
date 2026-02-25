@@ -1,7 +1,12 @@
 - projects:
     - title: Terminal Based Resume Generator
-      description: A Rust-based terminal tool to generate dynamic resumes.
+      url: github.com/cntrvsy/resume-pipeline
+      description: A TUI application built with Ratatui that generates custom opinionated resumes from YAML data sources and exports them as PDFs using Typst.
       tech_stack:
-        - Rust + Ratatui a CLI framework.
-        - Typst + Automated PDF generation from JSON payloads.
+        - Rust
+        - Ratatui
+        - Typst
+        - crossterm
+        - serde
+        
 
