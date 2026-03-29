@@ -6,18 +6,7 @@
         - Rust
         - Ratatui
         - Typst
-        - crossterm
-        - serde
-        - projects:
-    - title: Terminal Based Resume Generator
-      url: github.com/cntrvsy/resume-pipeline
-      description: A TUI application built with Ratatui that generates custom resumes from YAML data sources and exports them as PDFs using Typst.
-      tech_stack:
-        - Rust
-        - Ratatui
-        - Typst
-        - crossterm
-        - serde
+        - crossterm & serde
     - title: Air Quality Analysis & Prediction - India
       url: github.com/cntrvsy/colab_streamlit_aqi_india
       description: A Streamlit dashboard for analyzing and predicting Air Quality Index (AQI) in Indian cities using historical pollutants data. It includes exploratory data analysis, predictive modeling with Scikit-learn, and interactive visualizations.
@@ -29,3 +18,13 @@
         - Altair
         - Scikit-learn
         - Plotly
+    - title: Metro Tableau Dashboard
+      url: github.com/cntrvsy/metro_guard_tableau
+      description: Tableau visualization - Metro Guard Auto Insurance Company.
+      tech_stack:
+        - Python
+        - Tableau
+        - Pandas
+        - NumPy
+        - Altair
+        - Scikit-learn
